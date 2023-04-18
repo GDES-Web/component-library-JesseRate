@@ -1,17 +1,4 @@
-.body {
-  margin: 0;
-  height: 300px;
-  width: 300px;
-  background-color: blue;
-}
-
-.main {
-    background-color: white;
-    height: 200px;
-    width: 200px;
-}
-
-.button {
+.btn {
     position: relative;
     display: inline-block;
     /* padding: 10px 20px; */
@@ -22,19 +9,23 @@
     border: none;
     overflow: hidden;
     transition: all 0.3s ease;
-    padding: ;
+    /* padding: ; */
     border-radius: 10px;
     height: 50px;
     cursor: wait;
     margin: 20px;
   }
   
-  .button:hover {
+  .btn:hover, .btn:focus {
     background-color: red;
     color: black;
   }
+
+  .btn.wide {
+    width: 200px;
+  }
   
-  .button::before {
+  /* .btn::before {
     content: "";
     position: absolute;
     top: 50%;
@@ -50,4 +41,4 @@
   .icon {
     height: 100%;
     width: 100%;
-  }
+  } */
